@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(72deg, #432093 0%, #90DAFD 100%  );
+    background-repeat: no-repeat;
+    height:150vh;
+    font-family: 'Space Grotesk', sans-serif ;
+ }   
+ @keyframes example {
+   0%   {right:200px;}
+   25%  { right:200px;}
+ }
+ #banner-header-1{
+    background-image: url(image-removebg-preview\(3\)\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:500px;
+   
+   
+ }
+ #banner-header-2{
+   background-image: url(image-removebg-preview\ 2.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height:500px;
+   animation-name: example ;
+  animation-duration: 4s;
+}
+#banner-header-3{
+   background-image: url(image-removebg-preview\(2\)\ 1.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height:500px;
+  animation-name: example;
+  animation-duration: 4s;
+}
+#banner-header-4{
+   background-image: url(image-removebg-preview\ 1.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height:500px;
+  animation-name: example;
+  animation-duration: 4s;
+}
